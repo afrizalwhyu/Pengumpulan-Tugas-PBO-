@@ -1,5 +1,6 @@
 # Pengumpulan-Tugas-PBO-
 # Class Produk (Parent Class)
+# Class Produk (Parent Class)
 class Produk:
 
     # Konstruktor untuk menyimpan data produk
@@ -64,10 +65,9 @@ class Transaksi:
             print("Subtotal : Rp", item.subtotal)
             print("-" * 30)
 
-            print("Total      : Rp", self.total)
-            print("Bayar      : Rp", self.bayar)
-            print("Kembalian  : Rp", self.kembalian)
-
+        print("Total      : Rp", self.total)
+        print("Bayar      : Rp", self.bayar)
+        print("Kembalian  : Rp", self.kembalian)
 
 # Object Makanan
 produk1 = Makanan(1, "Nasi Goreng Spesial", 25000, 20, "2026-06-30")
