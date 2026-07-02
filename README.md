@@ -1,6 +1,5 @@
 # Pengumpulan-Tugas-PBO-
 # Class Produk (Parent Class)
-# Class Produk (Parent Class)
 class Produk:
 
     # Konstruktor untuk menyimpan data produk
